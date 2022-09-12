@@ -15,10 +15,10 @@ void setup() {
 
   Serial.println("\nAniket Chopra\n000814313");
 
-  Serial.println("ESP8266 Chip ID:- ");
-  Serial.print(ESP.getChipId());
+  Serial.print("\nESP8266 Chip ID:- ");
+  Serial.println(ESP.getChipId());
 
-  Serial.println("Flash Chip ID ");
+  Serial.print("Flash Chip ID:- ");
   Serial.println(ESP.getFlashChipId());
 
 
@@ -31,6 +31,7 @@ void loop() {
   
   Serial.print("Time since Run:- ");
   Serial.println(millis());
+  Serial.println("ms");
   delay(2000);
 
 
