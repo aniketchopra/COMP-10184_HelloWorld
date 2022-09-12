@@ -30,8 +30,8 @@ void setup() {
 void loop() {
   
   Serial.print("Time since Run:- ");
-  Serial.println(millis());
-  Serial.println("ms");
+  Serial.println(String(millis()) + " ms");
+  // Serial.println("ms");
   delay(2000);
 
 
