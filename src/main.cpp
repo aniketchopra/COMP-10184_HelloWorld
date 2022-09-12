@@ -1,3 +1,7 @@
+//I, Aniket CHopra, student number 000814313, certify that this material 
+//is my original work. No other person's work has been used without
+// due acknowledgment and I have not made my work available to anyone else.
+
 #include <Arduino.h>
 
 #define LED 2
@@ -25,8 +29,8 @@ void setup() {
 
 void loop() {
   
-  Serial.println("Time since Run:- ");
-  Serial.print(millis());
+  Serial.print("Time since Run:- ");
+  Serial.println(millis());
   delay(2000);
 
 
